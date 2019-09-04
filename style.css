@@ -1,0 +1,27 @@
+body{
+	Background-color:grey;
+}
+
+h1 {color:aqua;}
+
+h2 {
+	font-size:50px;
+	color:aqua;
+	background-color:white;
+	}
+	
+	
+img {
+	border: 18px dotted purple;
+	background-color:white;
+}
+
+p {
+	color:purple;
+	font-weight:bold;
+	
+}
+
+.loc {
+	color:pink;
+}
