@@ -1,0 +1,82 @@
+body{
+		background-color:gray;
+		font-family: geneva;
+		background-image: url(dogbones.jpg);
+		background-repeat: no repeat;
+		background-size: cover;
+		margin:0px;
+		padding:0px;
+}
+
+#wrap { width: 78%;
+		border: 15px double #00CED1;
+		margin: 0 auto;
+}
+
+header img {
+	width:40%;
+	
+}
+
+header{ background-color: white;
+text-align: center;
+
+}
+
+nav{
+	background-color: #00ced1;
+	padding:20px;
+	text-align: center;}
+
+	nav li {display:inline;}
+	
+	nav ul {
+		margin:0;
+		padding:0;
+	}
+	
+	nav a {
+		color:white;
+		padding: 20px;
+		margin-right: 5px;
+		font-family: Geneva;
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+section{background-color: white;
+		padding: 40px;
+		overflow: auto;
+		font-family: Geneva;
+		font-size: 20px;
+		padding-right: 5px;
+		
+}
+
+h1{
+	color:black;
+	font-size: 30px;
+	
+}
+div.box { 
+width:200px;
+height:200px;		
+background-color:red;
+border:10px solid black;
+padding:10px;
+margin:10px;
+}
+
+footer {background-color: #9400D3;
+padding: 10px;
+text-align: center;
+color:white;
+}
+
+.officer {
+	width: 40%;
+	float: right;
+	padding: 5px;
+	
+}
