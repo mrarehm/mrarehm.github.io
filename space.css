@@ -1,0 +1,45 @@
+
+html, body {
+	margin: 0;
+	padding:0;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+header, section, footer {
+	background-color: black;
+	margin: 20px;
+	padding: 20px;
+	color: white;
+}
+
+section {
+	padding: 10px;
+	z-index: -10;
+	overflow: auto;
+}
+
+figure{
+		width: 450px;
+		background-color: #1aa3ff;
+		padding: 10px;
+		text-align: center;
+		float: left;
+}
+
+figure img { 
+	width: 100%;
+}
+
+
+body p {
+	font-family: Times new roman;
+	font-size: 20px;
+	color: white;
+	
+}
+
