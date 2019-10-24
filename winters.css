@@ -1,0 +1,93 @@
+body{
+		background-color:gray;
+		font-family: geneva;
+		background-image: url(branch.jpeg);
+		background-repeat: no repeat;
+		background-size: cover;
+		margin:0px;
+		padding:0px;
+}
+
+#wrap { width: 78%;
+		border: 15px double white;
+		margin: 0 auto;
+}
+header img {
+	width:60%;
+	}
+header{
+ background-color: #76a0e3;
+text-align: center;
+}
+
+nav{
+	background-color: #626366;
+	padding:20px;
+	text-align: center;}
+
+	nav li {display:inline;}
+	
+	nav ul {
+		margin:0;
+		padding:0;
+	}
+	
+	nav a {
+		color:white;
+		padding: 20px;
+		margin-right: 5px;
+		font-family: Geneva;
+		font-size: 30px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+section{background-color: white;
+		padding: 40px;
+		overflow: auto;
+		font-family: Geneva;
+		font-size: 25px;
+		padding-right: 5px;
+		
+}
+
+h1{
+	color:black;
+	font-size: 50px;
+	
+}
+
+div.box { 
+width:200px;
+height:200px;		
+background-color:red;
+border:10px solid black;
+padding:10px;
+margin:10px;
+}
+
+footer {background-color: #76a0e3;
+padding: 10px;
+text-align: center;
+color:white;
+}
+
+
+figure{
+	width: 252px;
+	float: left;
+	border: 1px solid white;
+	background-color: #626366;
+	padding:10px;
+	margin: 10px 10px;
+	text-align: center;
+}
+
+figure img{
+	width: 100%;
+}
+.welcome {
+	display: flex;
+	padding: 10px 10px;
+	margin: 10px 0;
+	overflow: auto;
