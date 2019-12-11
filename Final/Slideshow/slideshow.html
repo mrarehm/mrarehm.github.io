@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="slideshow.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+ <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+</style>
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+<nav>
+<div class="topnav">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Friends</a></li>
+  <li><a href="#">Family</a></li>
+  <li><a href="#">Contact </a></li>
+ </ul>
+</div>
+</nav>
+
+<section>
+<div id="main">
+
+ <div class="slider-wrapper theme-light">
+            <div id="slider" class="nivoSlider">
+                <img src="images/tiana.png" data-thumb="images/tiana.png" alt="" />
+                <a href="http://dev7studios.com" target="_new"><img src="images/tangled.png" data-thumb="images/tangled.png" alt="" title="This is Rapunzel from Tangled" /></a>
+                <img src="images/sleeping.png" data-thumb="images/sleeping.png" alt="" data-transition="slideInLeft" />
+                <img src="images/ariel.png" data-thumb="images/ariel.png" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                 <em> This is Ariel from The Little Mermaid </em>  <a href="#">This is supposed to be a link</a>. 
+ </div>
+        
+		</div>
+	<p>This is the main content.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl mauris, consectetur eu felis sed, tempus pellentesque tortor. Duis tincidunt quis nunc vel bibendum. Vivamus vel mattis risus. Nullam non luctus nisl. Suspendisse quis erat eget ipsum fermentum semper. Maecenas neque orci, efficitur non est nec, vulputate viverra justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum dapibus gravida ipsum aliquet faucibus. Mauris ornare lectus at dui aliquam, eget semper mi viverra. Integer auctor velit eget quam blandit lacinia. Quisque sed purus nunc. Suspendisse potenti. Curabitur pharetra porta finibus. Quisque vitae urna quis diam fermentum molestie. Praesent vehicula risus sit amet urna efficitur, nec accumsan lorem venenatis. Sed semper vehicula risus eget maximus.</p>
+
+<p>Nulla ut odio vestibulum, convallis sem a, pellentesque eros. Fusce ipsum turpis, suscipit sed odio id, maximus vestibulum urna. Aliquam bibendum et urna quis aliquet. Suspendisse suscipit dignissim est eget dapibus. Nullam luctus maximus blandit. In et turpis sit amet lacus rutrum laoreet vitae id lorem. Quisque sit amet venenatis tortor, eget convallis nisi. Quisque a eros eu purus sollicitudin condimentum. Aenean rhoncus sem finibus ipsum tincidunt convallis.</p>
+
+<p>Fusce sit amet enim orci. Praesent a metus in turpis semper fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut et laoreet quam, ac blandit ante. Donec et risus blandit, fringilla magna at, venenatis magna. Sed nec sem vestibulum tellus elementum mattis. Sed non arcu iaculis, interdum arcu at, gravida sapien.</p>
+</div>
+<div id="side">
+<p>This is the side content.</p>
+<p>This is the side content.</p>
+<p>This is the side content.</p>
+<p>This is the side content.</p>
+
+</div>
+
+</section>
+ <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>

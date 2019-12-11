@@ -1,0 +1,118 @@
+/* Style the top navigation bar */
+body {
+    background-image: url(beans.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+   font-family: 'Petit Formal Script';
+   font-size: 22px;;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #f4c7a4;
+    text-align: center;
+}
+
+.topnav li,
+footer li {
+    display: inline;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+    color: #30110d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px; 
+}
+
+footer a {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #30110d;
+    color: white;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#main {
+    width: 68%;
+    float: right;
+    background-color: white;
+    padding: 1%;
+}
+
+#side {
+    width: 30%;
+	height: 700px;
+    float: left;
+    background-color: #30110d;
+    color: white;
+    text-decoration: none;
+}
+
+#side li {
+    list-style-type: none;
+    padding: 10px 0;
+	font-family: 'Dancing Script', cursive;
+	font-size: 22px;
+
+}
+
+#side a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color: white;
+    overflow: auto;
+}
+
+footer {
+    background-color: #f4c7a4;
+    text-align: center;
+    padding: 5px;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    #wrap {
+        width: 99%;
+    }
+
+    .topnav a {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .topnav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main,
+    #side {
+        float: none;
+        width: 100%;
+	
+    }
+
